@@ -1,0 +1,6 @@
+interface:
+  display_name: "任务澄清与执行闭环"
+  short_description: "把模糊目标逐步澄清为可执行任务，支持验收与保留满意部分的精准纠偏"
+  default_prompt: "请用 $task-clarifier 帮我澄清这个目标，信息齐全后在授权范围内执行："
+policy:
+  allow_implicit_invocation: false
